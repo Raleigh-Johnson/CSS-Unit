@@ -39,7 +39,7 @@ body {
 background-color: rgb(173, 223, 194);
 color: rgb(0, 0, 0);
 }
-menu li:hover ul {
+.menu li:hover ul {
     display: block;
     opacity: 1;
     visibility: visible;
@@ -51,14 +51,14 @@ menu li:hover ul {
     top: 43.5px;
     width: 125.5px;
     opacity: 0;
-    visibility: hidden;
+    visibility: visible;
 
 }
 
 
 .submenu li {
-    color: rgb(147, 73, 207);
-    background-color: goldenrod;
+    color: rgba(147, 73, 207, 0.514);
+    background-color: rgba(168, 131, 209, 0.438);
     visibility: visible;
 }
 
