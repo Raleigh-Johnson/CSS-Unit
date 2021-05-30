@@ -1,59 +1,194 @@
-
+html {
+    font-family: Arial, Helvetica, sans-serif  ; 
+    font-size: 62.5;
+    color: antiquewhite;
+    -webkit-tap-highlight-color: black;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 body {
-    background-color: antiquewhite;
+    font-size: 14px;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #fff;
 }
 
+footer,
+nav {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial, Helvetica, sans-serif ;
+}
+ 
 h1 {
-    color:gray;
-    text-shadow: 5px .5px 4px rgba(0,0,0, 0,2);
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #66a0249d ;
+    text-shadow: 2px 2px 3px black;
+}
+h1:after {
+    display: block;
+content:"";
+height: 2px;
+width:150px;
+background: #66a0249d;
+margin: 5px auto 40px;
+box-shadow: 5px 2px 3px black;
+}
+
+h2 {
+    line-height: 50px;
+    color:#66a0249d
+}
+h3{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+h4 {
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+}
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.text-center  {
+    text-align: center;
+}
+.heading-padding {
+    padding-bottom: 40px;
+}
+section {
+     padding-top: 50px;
+     margin: 50px;
+ }
+ 
+.navbar {
+height: 105px;
+max-height:340px;
+display: block;
 }
 
 .container {
-    width: 450px;
-    height: 450px;
-    background-color: antiquewhite;
-    border: 2px solid grey;
-    border-radius: 254;
-}
-.container .squares:nth-child(-n+4) {
-    background-image: url("images/icons/smile.png") ;
-    color: black;
-    width:  100px;
-    height: 100px;
-    float: left;
-    margin: 5px solid grey ;
-    border: 2px solid black;
-    border-radius: 54;
-    cursor: pointer;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.squares :nth-child(-n+4) p{
-    font-family: "Helvetica Neue", Helvetica, Arial;
-    font-size: 20em;
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right:auto;
+
+
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.clearfix:after,
+.container:after,
+.navbar:after {
+    clear:both;
+    display:table;
+    content: "";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top:0;
+    left:0;
+    text-align:center;
+}
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: "menu";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#home {
+    background: url("images/funny-dog0.jpeg") no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+    color: #fff;
+}
+.terms {
+    margin-top: 13%;
+
+}
+
+.head-main {
+    text-shadow: 2px 4px, 5px black;
+    font-variant: small-caps;
+    color:#fff;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:2;
     font-weight: 900;
-    margin: 0;
-    border-radius: 54;
-    float: left;
-    text-align: center;
-    text-shadow: 2px 1px 4px black;
+    border: 5px double black;
+    padding: 10px;
+}
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 50px, 20px, 10px, 20px;
+    text-transform:uppercase;
 }
 
-
-
-.squares :nth-child(1)  {
-    background-color: #fff;
+.head-last {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px, 20px, 20px, 20px;
+    border: 1px black;
+    padding: 5px;
+}
+.files-container  {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius:8px;
+    margin: 0px auto;
+    background-color: black;
+    box-shadow: 2px 2px 10px black;
 
 }
-.squares :nth-child(2)  { 
-    background-color: #ff8566;
+#contact {
+    background-color: antiquewhite;
+}
+.reservation {
+    width:60%;
+    padding: 10px;
+    border-radius:8px;
+    margin:0px auto;
+    background-color: #66a0249d;
 
 }
-.squares :nth-child(3)  {
-    background-color: #00ffff;
-
-}
-.squares :nth-child(4)  {
-    background-color: rgb(167, 39, 29);
-
-}
-          
