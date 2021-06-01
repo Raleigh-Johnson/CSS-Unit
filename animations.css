@@ -69,8 +69,8 @@
 }
 .photo-overlay {
     opacity: 0;
-    transition: opacity .5s;
-    border-radius:10px;
+    transition: opacity 0.1s;
+    border-radius: 10px;
     cursor: pointer;
 }
 .photo-overlay:hover {
