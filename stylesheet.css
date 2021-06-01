@@ -1,307 +1,34 @@
-html {
-    font-family: Arial, Helvetica, sans-serif  ; 
-    font-size: 62.5;
-    color: rgb(0, 0, 0);
-    -webkit-tap-highlight-color: black;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+title {
+  color: brown;
+  text-shadow: grey;
 }
 body {
-    font-size: 14px;
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif ;
-    line-height: 1.42857143;
-    color: #fff;
-    background-color: #fff;
-}
-
-footer,
-nav {
-    display: block;
-}
-h1, h2, h3, h4, h5, h6 {
-font-family: Arial, Helvetica, sans-serif ;
-}
- 
-h1 {
-    line-height: 50px;
-    font-weight: 900;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #66a0249d ;
-    text-shadow: 2px 2px 3px black;
-}
-h1:after {
-    display: block;
-content:"";
-height: 2px;
-width:150px;
-background: #66a0249d;
-margin: 5px auto 40px;
-box-shadow: 5px 2px 3px black;
-}
-
-h2 {
-    line-height: 50px;
-    color:#21310e
-}
-h3{
-    line-height: 30px;
-    padding-bottom: 20px;
-}
-h4 {
-    padding-top: 25px;
-    line-height: 40px;
-    padding-bottom: 0px;
-    font-size: 22px;
-    font-weight: 900;
+background-color:burlywood;
 }
 p {
-    font-weight: 300;
-    line-height: 30px;
-    padding-bottom: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: gray;
 }
-.text-center  {
-    text-align: center;
+.container {  
+  text-align: center;
+  background-color: 300px 300px azure;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 20px;
 }
-.heading-padding {
-    padding-bottom: 40px;
-}
-section {
-     padding-top: 50px;
-     margin: 50px;
- }
- 
-.navbar {
-height: 105px;
-max-height:340px;
-display: block;
-color:azure;
-}
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.photo img {
+  position: relative;
+  line-height: 0;
+  margin-bottom: 2em;
+  overflow: hidden;
+  border-radius: 8px;
+  padding: 1px;
+  border: 1px solid grey;
+  background-color: rgba(0, 0, 0, 0.116);
 }
 
-.container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right:auto;
-
-
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.clearfix:after,
-.container:after,
-.navbar:after {
-    clear:both;
-    display:table;
-    content: "";
-}
-
-.wrap {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    text-align: center;
-}
-.menu-container {
-    color:blanchedalmond;
-    max-height: 340px;
-    margin: 0% auto;
-    content: "#home";
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-#home {
-    background: url("images/funny-dog0.jpeg") no-repeat 50% 50%;
-    background-attachment: fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    display: block;
-    height: auto;
-    padding-top: 350px;
-    padding-bottom: 500px;
-    color: antiquewhite;
-}
-.terms {
-    margin-top: 13%;
-
-}
-
-.head-main {
-    text-shadow: 2px 4px 5px black;
-    font-variant: small-caps;
-    color:rgb(0, 0, 0);
-    background-color:antiquewhite;
-    letter-spacing: 5pt;
-    word-spacing: 21pt;
-    font-size: 4.5px;
-    text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height:2;
-    font-weight: 900;
-    border: 5px double black;
-    padding: 1px;
-}
-.head-sub-main {
-    font-size: 23px;
-    font-weight: 500;
-    padding: 50px, 20px, 10px, 20px;
-    text-transform:uppercase;
-}
-
-.head-last {
-    font-size: 18px;
-    font-weight: 500;
-    padding: 5px, 20px, 20px, 20px;
-    border: 1px black;
-    padding: 5px;
-}
-.files-container  {
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    border-radius:8px;
-    margin: 0px auto;
-    background-color: black;
-    box-shadow: 2px 2px 10px black;
-
-}
-#contact {
-    background-color: rgba(250, 235, 215, 0.89);
-}
-.reservation {
-    width:60%;
-    padding: 10px;
-    border-radius:8px;
-    margin:0px auto;
-    background-color: #66a0249d;
-    box-shadow: -1px, -1px,1px, gray, 1px, 2px, 10px black;
-}
-.reservation h2 {
-width: 70%;
-text-align: center;
-margin: 0% auto;
-color: honeydew;
-font-weight: 500;
-font-size: 1.3em;
-letter-spacing:0pt;
-}
-.reservation h2 {
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    color: honeydew;
-    font-weight: 900;
-    font-size:1.5em;
-    font-variant: small-caps;
-    letter-spacing: .4pt;    
-}
-.reservation p {
-    color: honeydew;
-    width: 50%;
-    margin:0 auto;
-}
-.reservation form {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color:honeydew;
-    padding:12px 12px;
-    width: 70%;
-    border: 1px solid black;
-    margin: 24 auto;
-    border-radius:7px;
-    background: antiquewhite;
-    box-shadow:2px,3px,3px,0px gray;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.reservation input[type="text"] {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    padding: 2%,1%,2%, 7%;
-     width: 80%;
-     color: rgba(0, 0, 0, 0.815);
-     border-top: 1px solid gray;
-     border-right: 2px solid gray;
-     border-bottom: 2px solid gray;
-     border-left: 1px solid gray;
-     margin: 10px 1em;
-     border-radius: 7px;
-     background: rgb(238, 234, 197);
-     box-shadow: 2px 2px black;
-     font-family:Arial, Helvetica, sans-serif;
-}
-
-.reservation input[type="text"]:hover {
-        box-shadow:0px 0px 10px rgba(100,65,0,.0)
-}
-.form-spacer {
-    padding: 30px 30px;
-}
-.terms {
-    margin: 30px 1px 0 0 ;
-    padding-left:52px;
-    font-size: 14px;
-    line-height:5px;
-    color:#000;
-    cursor:pointer;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 600;
-}
-.terms:hover {
-    color: green;
-    text-decoration: underline;
-}
-.terms {
-    position: relative;
-    display: inline;
-    float: right;
-}
-.submit input[type="submit"] {
-    color: rgba(64, 85, 34, 0.692);
-    cursor: pointer;
-    border: none;
-    font-weight: 900;
-    outline: none;
-    text-align:center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 3%;
-    padding: 7px 0px;
-    width: 25%;
-    font-size:18px;
-    transition: border-color 0.3s color 0.3s background-color 0.3s;
-    border-radius: 7px;
-    background-color:rgba(135, 179, 70, 0.692);
-    box-shadow: 1px 1px 4px 0 black;
-}
-.submit input[type="submit"]:hover {
-    color: rgb(90, 117, 50);
-    background-color: antiquewhite;
-    box-shadow: inset 1px 1px 15px black
-
-}
-.footer {
-    background-color: antiquewhite;
-    color: #000;
-    text-shadow: 2px 2px 4px black;
-    text-align:right;
-
+.photo:hover {
+  
 }
