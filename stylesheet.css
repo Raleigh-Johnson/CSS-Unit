@@ -77,6 +77,7 @@ section {
 height: 105px;
 max-height:340px;
 display: block;
+color:azure;
 }
 
 .container {
@@ -111,15 +112,15 @@ display: block;
     width: 100px;
     position: absolute;
     overflow: hidden;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     text-align: center;
 }
 .menu-container {
     color:blanchedalmond;
     max-height: 340px;
     margin: 0% auto;
-    content: "";
+    content: "#home";
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -146,6 +147,7 @@ display: block;
     text-shadow: 2px 4px 5px black;
     font-variant: small-caps;
     color:rgb(0, 0, 0);
+    background-color:antiquewhite;
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5px;
@@ -154,7 +156,7 @@ display: block;
     line-height:2;
     font-weight: 900;
     border: 5px double black;
-    padding: 10px;
+    padding: 1px;
 }
 .head-sub-main {
     font-size: 23px;
